@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.0.4 (Python 3.7.0 on win32)" generated="20181121 14:17:51.925">
+<suite id="s1" name="Test Suites" source="D:\test\parralel-test\Test_Suites">
+<suite id="s1-s1" name="SuiteWW" source="D:\test\parralel-test\Test_Suites\SuiteWW.robot">
+<test id="s1-s1-t1" name="SuiteWW01_test 001">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>1928312893iausdiaushd iausdaisudasiu dhasiud</arg>
+</arguments>
+<msg timestamp="20181121 14:17:51.946" level="INFO">1928312893iausdiaushd iausdaisudasiu dhasiud</msg>
+<status status="PASS" starttime="20181121 14:17:51.945" endtime="20181121 14:17:51.946"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5s</arg>
+</arguments>
+<msg timestamp="20181121 14:17:56.947" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20181121 14:17:51.947" endtime="20181121 14:17:56.947"></status>
+</kw>
+<status status="PASS" starttime="20181121 14:17:51.945" endtime="20181121 14:17:56.948" critical="yes"></status>
+</test>
+<test id="s1-s1-t2" name="SuiteWW03_test 003_failed">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>a39rv0qr oaiefowif dosfjisdao fiasdjfoida</arg>
+</arguments>
+<msg timestamp="20181121 14:17:56.949" level="INFO">a39rv0qr oaiefowif dosfjisdao fiasdjfoida</msg>
+<status status="PASS" starttime="20181121 14:17:56.949" endtime="20181121 14:17:56.949"></status>
+</kw>
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>Fail a test and this is the reason</arg>
+</arguments>
+<msg timestamp="20181121 14:17:56.950" level="INFO">Fail a test and this is the reason</msg>
+<status status="PASS" starttime="20181121 14:17:56.950" endtime="20181121 14:17:56.950"></status>
+</kw>
+<status status="PASS" starttime="20181121 14:17:56.949" endtime="20181121 14:17:56.950" critical="yes"></status>
+</test>
+<test id="s1-s1-t3" name="SuiteWW02_test 002">
+<kw name="Log" library="BuiltIn">
+<doc>Logs the given message with the given level.</doc>
+<arguments>
+<arg>a39rv0qr oaiefowif dosfjisdao fiasdjfoida</arg>
+</arguments>
+<msg timestamp="20181121 14:17:56.952" level="INFO">a39rv0qr oaiefowif dosfjisdao fiasdjfoida</msg>
+<status status="PASS" starttime="20181121 14:17:56.951" endtime="20181121 14:17:56.952"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5s</arg>
+</arguments>
+<msg timestamp="20181121 14:18:01.953" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" starttime="20181121 14:17:56.952" endtime="20181121 14:18:01.953"></status>
+</kw>
+<status status="PASS" starttime="20181121 14:17:56.951" endtime="20181121 14:18:01.954" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20181121 14:17:51.944" endtime="20181121 14:18:01.955"></status>
+</suite>
+<status status="PASS" starttime="20181121 14:17:51.926" endtime="20181121 14:18:01.957"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="3" fail="0">Critical Tests</stat>
+<stat pass="3" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="3" fail="0" id="s1" name="Test Suites">Test Suites</stat>
+<stat pass="3" fail="0" id="s1-s1" name="SuiteWW">Test Suites.SuiteWW</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
