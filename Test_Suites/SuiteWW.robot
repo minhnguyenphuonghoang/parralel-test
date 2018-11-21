@@ -7,7 +7,7 @@ SuiteWW01_test 001
 
 SuiteWW03_test 003_failed
 	Log    a39rv0qr oaiefowif dosfjisdao fiasdjfoida
-	Log    Fail a test and this is the reason
+	Fail    Fail a test and this is the reason
 
 SuiteWW02_test 002
 	Log    a39rv0qr oaiefowif dosfjisdao fiasdjfoida
