@@ -1,10 +1,12 @@
 *** Settings ***
+Library          SeleniumLibrary
 
 *** Test Cases ***
-Login01_test 001
-	Log    1928312893iausdiaushd iausdaisudasiu dhasiud
-	Sleep    5s
+Test case 001
+	[Teardown]    run keywords    capture page screenshot    AND    close all browsers
+	open browser    https://google.com.vn    gc
+	Sleep    1
+	capture page screenshot
+	go to    file://${CURDIR}/../abc.html
+	Sleep    1
 
-Login02_test 002
-	Log    a39rv0qr oaiefowif dosfjisdao fiasdjfoida
-	Sleep    5s

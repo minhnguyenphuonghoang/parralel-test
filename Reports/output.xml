@@ -1,78 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 3.0.4 (Python 3.7.0 on win32)" generated="20181121 14:17:51.925">
-<suite id="s1" name="Test Suites" source="D:\test\parralel-test\Test_Suites">
-<suite id="s1-s1" name="SuiteWW" source="D:\test\parralel-test\Test_Suites\SuiteWW.robot">
-<test id="s1-s1-t1" name="SuiteWW01_test 001">
-<kw name="Log" library="BuiltIn">
-<doc>Logs the given message with the given level.</doc>
+<robot generator="Robot 3.0.4 (Python 3.7.0 on win32)" generated="20181210 09:00:10.240">
+<suite id="s1" name="Parralel-Test" source="D:\paralleltest\parralel-test">
+<suite id="s1-s1" name="Test Suites" source="D:\paralleltest\parralel-test\Test_Suites">
+<suite id="s1-s1-s1" name="Login" source="D:\paralleltest\parralel-test\Test_Suites\Login.robot">
+<test id="s1-s1-s1-t1" name="Test case 001">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the given ``url``.</doc>
 <arguments>
-<arg>1928312893iausdiaushd iausdaisudasiu dhasiud</arg>
+<arg>https://google.com.vn</arg>
+<arg>gc</arg>
 </arguments>
-<msg timestamp="20181121 14:17:51.946" level="INFO">1928312893iausdiaushd iausdaisudasiu dhasiud</msg>
-<status status="PASS" starttime="20181121 14:17:51.945" endtime="20181121 14:17:51.946"></status>
+<msg timestamp="20181210 09:00:10.365" level="INFO">Opening browser 'gc' to base url 'https://google.com.vn'.</msg>
+<status status="PASS" starttime="20181210 09:00:10.365" endtime="20181210 09:00:13.341"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
-<arg>5s</arg>
+<arg>1</arg>
 </arguments>
-<msg timestamp="20181121 14:17:56.947" level="INFO">Slept 5 seconds</msg>
-<status status="PASS" starttime="20181121 14:17:51.947" endtime="20181121 14:17:56.947"></status>
+<msg timestamp="20181210 09:00:14.342" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20181210 09:00:13.341" endtime="20181210 09:00:14.342"></status>
 </kw>
-<status status="PASS" starttime="20181121 14:17:51.945" endtime="20181121 14:17:56.948" critical="yes"></status>
-</test>
-<test id="s1-s1-t2" name="SuiteWW03_test 003_failed">
-<kw name="Log" library="BuiltIn">
-<doc>Logs the given message with the given level.</doc>
-<arguments>
-<arg>a39rv0qr oaiefowif dosfjisdao fiasdjfoida</arg>
-</arguments>
-<msg timestamp="20181121 14:17:56.949" level="INFO">a39rv0qr oaiefowif dosfjisdao fiasdjfoida</msg>
-<status status="PASS" starttime="20181121 14:17:56.949" endtime="20181121 14:17:56.949"></status>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes screenshot of the current page and embeds it into log file.</doc>
+<msg timestamp="20181210 09:00:14.772" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-3.png"&gt;&lt;img src="selenium-screenshot-3.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20181210 09:00:14.342" endtime="20181210 09:00:14.772"></status>
 </kw>
-<kw name="Log" library="BuiltIn">
-<doc>Logs the given message with the given level.</doc>
+<kw name="Go To" library="SeleniumLibrary">
+<doc>Navigates the active browser instance to the provided ``url``.</doc>
 <arguments>
-<arg>Fail a test and this is the reason</arg>
+<arg>file://D:\\paralleltest\\parralel-test\\Test_Suites/../abc.html</arg>
 </arguments>
-<msg timestamp="20181121 14:17:56.950" level="INFO">Fail a test and this is the reason</msg>
-<status status="PASS" starttime="20181121 14:17:56.950" endtime="20181121 14:17:56.950"></status>
-</kw>
-<status status="PASS" starttime="20181121 14:17:56.949" endtime="20181121 14:17:56.950" critical="yes"></status>
-</test>
-<test id="s1-s1-t3" name="SuiteWW02_test 002">
-<kw name="Log" library="BuiltIn">
-<doc>Logs the given message with the given level.</doc>
-<arguments>
-<arg>a39rv0qr oaiefowif dosfjisdao fiasdjfoida</arg>
-</arguments>
-<msg timestamp="20181121 14:17:56.952" level="INFO">a39rv0qr oaiefowif dosfjisdao fiasdjfoida</msg>
-<status status="PASS" starttime="20181121 14:17:56.951" endtime="20181121 14:17:56.952"></status>
+<msg timestamp="20181210 09:00:14.772" level="INFO">Opening url 'file://D:\paralleltest\parralel-test\Test_Suites/../abc.html'</msg>
+<status status="PASS" starttime="20181210 09:00:14.772" endtime="20181210 09:00:15.509"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
-<arg>5s</arg>
+<arg>1</arg>
 </arguments>
-<msg timestamp="20181121 14:18:01.953" level="INFO">Slept 5 seconds</msg>
-<status status="PASS" starttime="20181121 14:17:56.952" endtime="20181121 14:18:01.953"></status>
+<msg timestamp="20181210 09:00:16.511" level="INFO">Slept 1 second</msg>
+<status status="PASS" starttime="20181210 09:00:15.510" endtime="20181210 09:00:16.511"></status>
 </kw>
-<status status="PASS" starttime="20181121 14:17:56.951" endtime="20181121 14:18:01.954" critical="yes"></status>
+<kw name="Run Keywords" library="BuiltIn" type="teardown">
+<doc>Executes all the given keywords in a sequence.</doc>
+<arguments>
+<arg>capture page screenshot</arg>
+<arg>AND</arg>
+<arg>close all browsers</arg>
+</arguments>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes screenshot of the current page and embeds it into log file.</doc>
+<msg timestamp="20181210 09:00:17.027" level="INFO" html="yes">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-4.png"&gt;&lt;img src="selenium-screenshot-4.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20181210 09:00:16.512" endtime="20181210 09:00:17.027"></status>
+</kw>
+<kw name="Close All Browsers" library="SeleniumLibrary">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" starttime="20181210 09:00:17.027" endtime="20181210 09:00:19.326"></status>
+</kw>
+<status status="PASS" starttime="20181210 09:00:16.511" endtime="20181210 09:00:19.326"></status>
+</kw>
+<status status="PASS" starttime="20181210 09:00:10.365" endtime="20181210 09:00:19.326" critical="yes"></status>
 </test>
-<status status="PASS" starttime="20181121 14:17:51.944" endtime="20181121 14:18:01.955"></status>
+<status status="PASS" starttime="20181210 09:00:10.271" endtime="20181210 09:00:19.327"></status>
 </suite>
-<status status="PASS" starttime="20181121 14:17:51.926" endtime="20181121 14:18:01.957"></status>
+<status status="PASS" starttime="20181210 09:00:10.255" endtime="20181210 09:00:19.328"></status>
+</suite>
+<status status="PASS" starttime="20181210 09:00:10.240" endtime="20181210 09:00:19.329"></status>
 </suite>
 <statistics>
 <total>
-<stat pass="3" fail="0">Critical Tests</stat>
-<stat pass="3" fail="0">All Tests</stat>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat pass="3" fail="0" id="s1" name="Test Suites">Test Suites</stat>
-<stat pass="3" fail="0" id="s1-s1" name="SuiteWW">Test Suites.SuiteWW</stat>
+<stat pass="1" fail="0" id="s1" name="Parralel-Test">Parralel-Test</stat>
+<stat pass="1" fail="0" id="s1-s1" name="Test Suites">Parralel-Test.Test Suites</stat>
+<stat pass="1" fail="0" id="s1-s1-s1" name="Login">Parralel-Test.Test Suites.Login</stat>
 </suite>
 </statistics>
 <errors>
